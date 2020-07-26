@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://nadir500.github.io
+url:                   https://nadir500.github.io/about/
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -32,7 +32,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Nader Pervez
+tagline:               Gameplay/Graphics Programmer
 
 # A list of keywords for your blog
 keywords:              []
@@ -45,13 +45,15 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Nader Pervez
+  email:               nadirpak95@hotmail.com
   # # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+   twitter:             @NadirPenguin
 
 # Add links to the sidebar.
 menu:
+  - title: Blog
+    url:   /blog/ 
   - title:             Example
     url:               /example/
   - title:             Documentation
