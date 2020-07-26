@@ -9,12 +9,10 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.8"
-
+ruby '2.7.0'
 group :jekyll_plugins do
   gem "github-pages"
   gem "jekyll-include-cache"
   gem "jekyll-compose"
 end
-
-gem 'wdm' if Gem.win_platform?
-gem "tzinfo-data" if Gem.win_platform?
+ 
